@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/ssstone/.nvm/versions/node/v14.17.0/bin/node /Users/ssstone/.nvm/versions/node/v14.17.0/bin/yarn dev
+
+PATH: 
+  /Users/ssstone/.nvm/versions/node/v14.17.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Users/ssstone/.nvm/versions/node/v14.17.0/bin:/Users/ssstone/.cargo/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/ssstone/github/webTransport/package.json: Unexpected string in JSON at position 232
+      at JSON.parse (<anonymous>)
+      at /Users/ssstone/.nvm/versions/node/v14.17.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/ssstone/.nvm/versions/node/v14.17.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/ssstone/.nvm/versions/node/v14.17.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "web-transport",
+    "version": "1.0.0",
+    "private": true,
+    "devDependencies": {
+      "lerna": "^4.0.0"
+    },
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "lerna run dev --parallel --scope web"
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/unStone/webTransport.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/unStone/webTransport/issues"
+    },
+    "homepage": "https://github.com/unStone/webTransport#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
